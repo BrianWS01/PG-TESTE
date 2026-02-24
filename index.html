@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Street Barbershop | Transforme sua Carreira</title>
+  <meta name="description"
+    content="Domine as técnicas mais avançadas do mercado de barbearia e fature alto. Cursos profissionais com certificado. Vagas limitadas!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="container header-inner">
+        <div class="logo">STREET <span>BARBERSHOP</span></div>
+        <nav class="nav">
+          <a href="#about">Sobre</a>
+          <a href="#courses">Cursos</a>
+          <a href="#testimonials">Depoimentos</a>
+          <a href="#location">Localização</a>
+          <a href="#leads" class="btn btn-gold btn-sm">QUERO ME INSCREVER</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-particles" id="heroParticles"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="badge hero-badge-anim">🏆 +500 Alunos Formados</span>
+          <h1 class="headline hero-headline-anim">Transforme sua habilidade em uma <span class="text-red">máquina de
+              lucro</span></h1>
+          <p class="subheadline hero-sub-anim">Domine as técnicas mais avançadas do mercado e fature alto com a
+            barbearia
+            profissional.</p>
+          <div class="hero-ctas hero-ctas-anim">
+            <a href="#courses" class="btn btn-gold btn-pulse">QUERO APRENDER AGORA</a>
+            <a href="#testimonials" class="btn btn-outline">Ver Depoimentos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOUNDER QUOTE -->
+    <section class="founder-quote reveal">
+      <div class="container">
+        <div class="founder-quote-inner">
+          <span class="founder-quote-mark">"</span>
+          <blockquote>
+            Já fui repositor de supermercado.<br>
+            <strong>Hoje construo negócios e barbeiros.</strong>
+          </blockquote>
+          <span class="founder-quote-author">— Henrique "PG" Santos · Fundador, Street Barbershop</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+      <div class="container about-layout">
+
+        <!-- LEFT: image -->
+        <div class="about-img reveal reveal-left">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1470&auto=format&fit=crop"
+            alt="Espaço Street Barbershop">
+          <div class="about-img-badge">
+            <span>desde</span>
+            <strong>2020</strong>
+          </div>
+        </div>
+
+        <!-- RIGHT: text -->
+        <div class="about-text reveal reveal-right">
+          <div class="section-label">NOSSA HISTÓRIA</div>
+          <h2 class="section-title">Sobre a <span class="text-red">STREET BARBERSHOP</span></h2>
+
+          <p class="about-lead">
+            Nascemos do asfalto. Crescemos com disciplina. Hoje somos <strong>referência nacional</strong>
+            em formação de barbeiros profissionais.
+          </p>
+          <p class="about-body">
+            A Street Barbershop surgiu em Jardim América com um propósito claro: provar que técnica,
+            atitude e visão de negócio transformam vidas. Mais do que cortes, ensinamos barbeiros a
+            construir carreiras sólidas — do primeiro cliente à própria barbearia.
+          </p>
+
+          <!-- Mini-stats -->
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="about-stat-num">10+</span>
+              <span class="about-stat-label">Anos no mercado</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat-num">500+</span>
+              <span class="about-stat-label">Barbeiros formados</span>
+            </div>
+            <div class="about-stat">
+              <span class="about-stat-num">30+</span>
+              <span class="about-stat-label">Cidades alcançadas</span>
+            </div>
+          </div>
+
+          <a href="#courses" class="btn btn-gold" style="margin-top:2rem;">Quero fazer parte →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BARBERS SECTION -->
+    <section id="barbers" class="barbers">
+      <div class="container">
+        <h2 class="section-title text-center reveal">Nossos <span class="text-red">Barbeiros</span></h2>
+        <p class="section-subtitle reveal" style="margin-bottom:2.5rem;">Clique em uma carta para conhecer nosso time
+        </p>
+        <div class="barbers-deck reveal" id="barbersDeck">
+          <!-- Cards injected by main.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COURSES SECTION -->
+    <section id="courses" class="courses">
+
+      <!-- HERO DO CURSO -->
+      <div class="course-hero">
+        <div class="container course-hero-layout">
+
+          <!-- LEFT: thumbnail / imagem -->
+          <div class="course-thumb reveal reveal-left">
+            <div class="course-thumb-wrap">
+              <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=900&auto=format&fit=crop"
+                alt="Curso Street Barbershop">
+              <div class="course-thumb-overlay">
+                <span class="course-thumb-play">▶</span>
+                <span class="course-thumb-label">Prévia do curso</span>
+              </div>
+            </div>
+            <!-- Badge de garantia -->
+            <div class="course-guarantee-badge">
+              <span class="course-guarantee-icon">🛡️</span>
+              <div>
+                <strong>Garantia de 7 dias</strong>
+                <span>Dinheiro de volta</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: info -->
+          <div class="course-info reveal reveal-right">
+            <div class="section-label">FORMAÇÃO PROFISSIONAL</div>
+            <h2 class="section-title">O Curso que vai <span class="text-red">transformar</span> sua carreira</h2>
+            <p class="course-tagline">Do zero ao profissional de alto padrão — técnica, negócio e atitude.</p>
+
+            <!-- O que está incluso -->
+            <ul class="course-includes">
+              <li><span class="ci-icon">✂️</span> Técnicas de degradê e navalha</li>
+              <li><span class="ci-icon">💈</span> Cortes clássicos e tendências atuais</li>
+              <li><span class="ci-icon">🪒</span> Barboterapia & design de barba</li>
+              <li><span class="ci-icon">💰</span> Gestão e empreendedorismo</li>
+              <li><span class="ci-icon">📱</span> Marketing: Instagram e agenda cheia</li>
+              <li><span class="ci-icon">🎓</span> Certificação profissional reconhecida</li>
+              <li><span class="ci-icon ci-gold">⭐</span> <strong>Bônus: Gestão financeira para barbearia</strong></li>
+            </ul>
+
+            <!-- CTA -->
+            <div class="course-cta-block">
+              <p class="cta-urgency">Vagas limitadas — turma fechando em breve!</p>
+              <a href="https://hotmart.com" target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+                GARANTIR MINHA VAGA AGORA
+              </a>
+              <p class="cta-sub">✅ Pagamento 100% seguro · Plataforma Hotmart</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- MÓDULOS / O QUE VAI APRENDER -->
+      <div class="course-modules-section">
+        <div class="container">
+          <div class="section-label text-center reveal">CONTEÚDO DO CURSO</div>
+          <h3 class="subsection-title text-center reveal">O que você vai <span class="text-red">dominar</span></h3>
+
+          <div class="modules-grid reveal">
+            <div class="module-card">
+              <div class="module-num">01</div>
+              <h4>Fundamentos & Ferramentas</h4>
+              <p>Higiene, ergonomia, maquinário profissional e montagem da sua bancada.</p>
+            </div>
+            <div class="module-card">
+              <div class="module-num">02</div>
+              <h4>Degradê & Fade de Precisão</h4>
+              <p>Low, mid e high fade com máquina e navalha. Do iniciante ao nível master.</p>
+            </div>
+            <div class="module-card">
+              <div class="module-num">03</div>
+              <h4>Cortes Clássicos & Modernos</h4>
+              <p>Pompadour, undercut, quiff, skin fade e as tendências do mercado.</p>
+            </div>
+            <div class="module-card">
+              <div class="module-num">04</div>
+              <h4>Barba & Barboterapia</h4>
+              <p>Design de barba, hidratação, tratamentos e ritual de navalha completo.</p>
+            </div>
+            <div class="module-card">
+              <div class="module-num">05</div>
+              <h4>Marketing & Redes Sociais</h4>
+              <p>Como lotar sua agenda, criar conteúdo e atrair clientes de alto ticket.</p>
+            </div>
+            <div class="module-card module-card--gold">
+              <div class="module-num">06</div>
+              <h4>Negócio & Empreendedorismo</h4>
+              <p>Precificação, fidelização, abertura de barbearia e gestão financeira.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PARA QUEM É + DIFERENCIAIS -->
+      <div class="container course-bottom">
+
+        <!-- Para quem é -->
+        <div class="course-who reveal reveal-left">
+          <h3 class="subsection-title">Para quem é?</h3>
+          <div class="who-list">
+            <div class="who-item">
+              <span class="who-icon">✦</span>
+              <p><strong>Iniciantes</strong> que nunca pegaram numa máquina e querem entrar no mercado.</p>
+            </div>
+            <div class="who-item">
+              <span class="who-icon">✦</span>
+              <p><strong>Barbeiros atuantes</strong> que querem elevar o nível e cobrar mais caro.</p>
+            </div>
+            <div class="who-item">
+              <span class="who-icon">✦</span>
+              <p><strong>Donos de barbearia</strong> que precisam escalar com profissionalismo.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diferenciais -->
+        <div class="course-diff reveal reveal-right">
+          <h3 class="subsection-title">Por que Street Barbershop?</h3>
+          <div class="diff-list">
+            <div class="diff-item"><span class="check">✔</span> Método criado por Master Barbers com +10 anos</div>
+            <div class="diff-item"><span class="check">✔</span> +500 alunos formados no Brasil e exterior</div>
+            <div class="diff-item"><span class="check">✔</span> Suporte em grupo exclusivo de alunos</div>
+            <div class="diff-item"><span class="check">✔</span> Acesso vitalício + atualizações grátis</div>
+            <div class="diff-item"><span class="check">✔</span> Garantia de 7 dias ou seu dinheiro de volta</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA FINAL ÉPICO -->
+      <div class="course-final-cta">
+        <div class="container">
+          <div class="course-final-cta-inner reveal reveal-scale">
+            <div class="cfc-text">
+              <p class="cfa-tag">OFERTA LIMITADA</p>
+              <h2>Pronto para transformar sua vida<br>com a <span class="text-red">STREET BARBERSHOP</span>?</h2>
+              <p class="cfa-sub">Junte-se aos +500 barbeiros que já mudaram de patamar.</p>
+            </div>
+            <div class="cfc-action">
+              <a href="https://hotmart.com" target="_blank" rel="noopener" class="btn btn-gold btn-lg cfa-btn">
+                QUERO ENTRAR AGORA →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PROVA SOCIAL -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-label reveal">RESULTADOS REAIS</div>
+        <h2 class="section-title text-center reveal">O que nossos <span class="text-red">Alunos dizem</span></h2>
+
+        <!-- DEPOIMENTOS -->
+        <div class="testimonials-grid reveal-stagger">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Em 3 meses depois do curso já tinha triplicado minha clientela. O método deles
+              é incomparável. Hoje cobro R$80 o corte e minha agenda tá sempre cheia!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=100&auto=format&fit=crop"
+                alt="Marcos A.">
+              <div>
+                <strong>Marcos Alves</strong>
+                <span>São Paulo - SP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card featured">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"Não sabia nada de barbearia. Hoje tenho minha própria barbearia com 3 cadeiras
+              e 2 funcionários. O curso me deu base técnica E empresarial. Valeu cada centavo!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=100&auto=format&fit=crop"
+                alt="Felipe R.">
+              <div>
+                <strong>Felipe Rocha</strong>
+                <span>Belo Horizonte - MG</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">"O módulo de degradê mudou minha vida. Clientes que pagavam R$30 agora me
+              procuram pra pagar R$100. A qualidade do ensino é outro nível."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop"
+                alt="Caio S.">
+              <div>
+                <strong>Caio Santos</strong>
+                <span>Rio de Janeiro - RJ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AVALIAÇÕES / RATINGS -->
+        <div class="ratings-bar reveal">
+          <div class="rating-stat">
+            <span class="rating-number">4.9</span>
+            <span class="rating-stars">★★★★★</span>
+            <span class="rating-label">Nota média</span>
+          </div>
+          <div class="rating-divider"></div>
+          <div class="rating-stat">
+            <span class="rating-number">500+</span>
+            <span class="rating-label">Alunos formados</span>
+          </div>
+          <div class="rating-divider"></div>
+          <div class="rating-stat">
+            <span class="rating-number">97%</span>
+            <span class="rating-label">Satisfação</span>
+          </div>
+        </div>
+
+        <!-- ANTES E DEPOIS -->
+        <div class="before-after-section">
+          <h3 class="subsection-title text-center">✂️ Antes & Depois dos Alunos</h3>
+          <div class="before-after-grid">
+            <div class="ba-card">
+              <div class="ba-images">
+                <div class="ba-img-wrap">
+                  <span class="ba-label">ANTES</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?q=80&w=400&auto=format&fit=crop"
+                    alt="Antes do curso">
+                </div>
+                <div class="ba-img-wrap">
+                  <span class="ba-label after">DEPOIS</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=400&auto=format&fit=crop"
+                    alt="Depois do curso">
+                </div>
+              </div>
+              <p class="ba-caption">Técnica de degradê — Aluno João Paulo, 2 meses após o curso</p>
+            </div>
+            <div class="ba-card">
+              <div class="ba-images">
+                <div class="ba-img-wrap">
+                  <span class="ba-label">ANTES</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=400&auto=format&fit=crop"
+                    alt="Antes do curso">
+                </div>
+                <div class="ba-img-wrap">
+                  <span class="ba-label after">DEPOIS</span>
+                  <img
+                    src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?q=80&w=400&auto=format&fit=crop"
+                    alt="Depois do curso">
+                </div>
+              </div>
+              <p class="ba-caption">Navalha & barba completa — Aluno Pedro Lima, 1 mês após o curso</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section id="location" class="location">
+      <div class="container">
+        <div class="section-label reveal">ONDE ESTAMOS</div>
+        <h2 class="section-title text-center reveal">Nossa <span class="text-red">Localização</span></h2>
+        <div class="location-grid">
+          <div class="location-info">
+            <div class="info-block">
+              <span class="info-icon">📍</span>
+              <div>
+                <strong>Endereço</strong>
+                <p>Rua Nicaragua, 258</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <span class="info-icon">🏙️</span>
+              <div>
+                <strong>Bairro &amp; Cidade</strong>
+                <p>Jardim América · São Paulo – SP</p>
+                <p>CEP: 05435-001</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <span class="info-icon">🕐</span>
+              <div>
+                <strong>Horário de Funcionamento</strong>
+                <p>Seg – Sex: 9h às 19h</p>
+                <p>Sáb: 9h às 17h</p>
+              </div>
+            </div>
+            <div class="info-block">
+              <span class="info-icon">📞</span>
+              <div>
+                <strong>Contato</strong>
+                <p>+55 11 95550-6042</p>
+                <div style="display:flex; gap:.75rem; flex-wrap:wrap; margin-top:.75rem;">
+                  <a href="https://wa.me/5511955506042" target="_blank" rel="noopener" class="btn btn-gold"
+                    style="font-size:.85rem; padding:.6rem 1.5rem;">💬 WhatsApp</a>
+                  <a href="https://www.instagram.com/street_barbershop10/" target="_blank" rel="noopener"
+                    class="btn btn-outline" style="font-size:.85rem; padding:.6rem 1.5rem;">📸 Instagram</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- FOTOS DA FACHADA -->
+            <div class="facade-photos">
+              <h4>Conheça nosso espaço</h4>
+              <div class="facade-grid">
+                <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?q=80&w=400&auto=format&fit=crop"
+                  alt="Fachada Street Barbershop">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=400&auto=format&fit=crop"
+                  alt="Interior Street Barbershop">
+                <img src="https://images.unsplash.com/photo-1565085360602-3d4ae46fa93b?q=80&w=400&auto=format&fit=crop"
+                  alt="Cadeiras barbeiro">
+              </div>
+            </div>
+          </div>
+
+          <!-- MAPA -->
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0754!2d-46.6925!3d-23.5614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577f00000001%3A0x1!2sVila+Madalena%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Localização Street Barbershop">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEAD CAPTURE -->
+    <section id="leads" class="leads">
+      <div class="container">
+        <div class="form-card reveal reveal-scale">
+          <div class="section-label" style="justify-content:center; margin-bottom:1rem;">CONTEÚDO GRATUITO</div>
+          <h2 class="section-title">Receba conteúdo <span class="text-gold">exclusivo</span></h2>
+          <p>Técnicas profissionais gratuitas diretamente no seu e-mail.</p>
+          <form id="lead-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Melhor E-mail" required>
+            <input type="tel" placeholder="WhatsApp (DDD + número)" required>
+            <button type="submit" class="btn btn-gold">QUERO FAZER PARTE</button>
+          </form>
+          <p style="margin-top:1rem; font-size:.8rem; color:var(--color-text-muted);">🔒 Seus dados estão seguros. Não
+            enviamos spam.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section class="guarantee">
+      <div class="container">
+        <div class="guarantee-box reveal">
+          <span class="guarantee-icon">🛡️</span>
+          <div>
+            <h3>Garantia de 7 Dias</h3>
+            <p>Se por qualquer motivo você não ficar satisfeito com o curso, devolvemos 100% do seu investimento. Sem
+              perguntas, sem burocracia.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="logo" style="margin-bottom: 1rem;">STREET <span>BARBERSHOP</span></div>
+        <p style="color: var(--color-text-muted); margin-bottom:.5rem;">© 2026 Street Barbershop. Todos os direitos
+          reservados.</p>
+        <p style="color: #555; font-size:.8rem;">Este site não é afiliado ao Facebook ou Instagram. Todos os resultados
+          apresentados são individuais e não garantem os mesmos resultados para todos.</p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
